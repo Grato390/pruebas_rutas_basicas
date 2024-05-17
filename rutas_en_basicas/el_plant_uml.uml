@@ -1,0 +1,24 @@
+@startuml
+start
+
+if (a != b) then (1)
+  if (a > b) then (1.1)
+  else (1.2)
+  endif
+else (2)
+endif
+
+if (opcion == a) then (3)
+elseif (opcion == b) then (4)
+else (5)
+endif
+
+if (a == b) then (6)
+else (7)
+endif
+
+while (contador < cantidad_elementos) is (8)
+endwhile
+
+stop
+@enduml
